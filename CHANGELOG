@@ -1,0 +1,14 @@
+# Changelog
+
+## [1.0.0] - Initial Release
+
+### Added
+- Implemented SSH access management via `ufw`.
+- Introduced a "knock file" mechanism for temporary SSH access.
+- Support for manual execution and automated execution via `cron`.
+- Basic security considerations for managing SSH access dynamically.
+- Documentation including README and usage instructions.
+
+---
+
+Future updates may include additional security enhancements, logging improvements, and potential support for multiple users / multiple IP addresses.
