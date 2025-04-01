@@ -7,7 +7,7 @@ It allows temporary access to a specific port (default: 22 for SSH) based on the
 
 The script is particularly useful for users without static IP addresses who still need secure SSH access. It can be run periodically via `cron` to authorize or revoke access dynamically.
 
-This script was originally designed to permanently block SSH access on publicly accessible servers using `ufw` while still allowing users without a static IP address to request temporary access. This is achieved through a web-based mechanism, such as a password-protected HTML form, that generates a knock file containing the user's IP address. The script then reads this file and dynamically grants access.
+This script was originally designed to permanently block SSH access on publicly accessible servers using `ufw` while still allowing users without a static IP address to request temporary access. This can be achieved through a web-based mechanism, such as a password-protected HTML form, that generates a knock file containing the user's IP address. The script then reads this file and dynamically grants access.
 
 ## How It Works
 
